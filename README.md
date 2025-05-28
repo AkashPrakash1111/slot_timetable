@@ -148,7 +148,99 @@ Execute the program using runserver command.
 </html>
 
 ```
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*************************************************************************************************
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timetable</title>
+</head>
+<body>
+    <img src="/static/logo.png" height="100" width="540">
+    
+    <!-- Timetable -->
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr>
+            <td>9-10</td>
+            <td>Maths</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Biology</td>
+            <td>English</td>
+            <td>Free Slot</td>
+        </tr>
+        <tr>
+            <td>10-12</td>
+            <td colspan="3">Lab Session</td>
+            <td>Computer</td>
+            <td>Biology</td>
+            <td>Free Slot</td>
+        </tr>
+        <tr>
+            <td>1-2</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Free Slot</td>
+            <td>Seminar</td>
+        </tr>
+        <tr>
+            <td>2-4</td>
+            <td colspan="6">Project Work</td>
+        </tr>
+    </table>
 
+    <!-- Subject List -->
+    <table border="1">
+        <tr>
+            <th>S.No</th>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>20MA101</td>
+            <td>Mathematics</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>20PH102</td>
+            <td>Physics</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>20CH103</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>20CS104</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>20EN105</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>20BI106</td>
+            <td>Biology</td>
+        </tr>
+    </table>
+</body>
+</html>
+```
 ## OUTPUT
 ![alt text](<Screenshot 2025-04-20 163737.png>)
 
